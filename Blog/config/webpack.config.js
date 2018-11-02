@@ -55,6 +55,10 @@ module.exports = {
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin(),
+        new HtmlWebpackPlugin({
+            title: '轻样知生',
+            filename: 'index.html',
+            template: path.resolve(__dirname, '../src/index.html'),
+        }),
     ]
 };
