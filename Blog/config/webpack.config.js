@@ -1,10 +1,11 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webapck-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: '../src/index.js',
+    mode: 'development',
+    entry: path.resolve(__dirname, '../src/index.js'),
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, '../dist'),
         filename: 'bundle.js',
     },
     module: {
@@ -16,15 +17,21 @@ module.exports = {
                     'sass-loader',
                 ]
             },
-            {test: /\.css$/, use: 'css-loader'},
-            {test: /\.ts$/, use: 'ts-loader'},
+            {
+                test: /\.css$/,
+                use: 'css-loader',
+            },
+            {
+                test: /\.ts$/,
+                use: 'ts-loader',
+            },
             {
                 test: /\.m?js$/,
                 exclude: /(node_modules|bower_components)/,
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['@babel/preset-env'],
+                        presets: ['@babel/preset-react', '@babel/preset-env'],
                     },
                 }
             },
