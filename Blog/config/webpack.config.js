@@ -60,5 +60,10 @@ module.exports = {
             filename: 'index.html',
             template: path.resolve(__dirname, '../src/index.html'),
         }),
-    ]
+    ],
+    devServer: {
+        contentBase: path.resolve(__dirname, '../dist'),
+        compress: true,
+        port: 9000,
+    }
 };

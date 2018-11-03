@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099eb1f0-06a8-4f86-8c65-9321436406ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/config/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +79,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="12" />
-          <entry key="js" value="2228" />
+          <entry key="js" value="2318" />
           <entry key="json" value="113" />
           <entry key="md" value="2" />
         </counts>
@@ -87,7 +88,7 @@
         <counts>
           <entry key="HTML" value="12" />
           <entry key="JSON" value="113" />
-          <entry key="JavaScript" value="2228" />
+          <entry key="JavaScript" value="2318" />
           <entry key="Markdown" value="2" />
         </counts>
       </usages-collector>
@@ -125,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Blog/config/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
+            <state relative-caret-position="92">
+              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -377,18 +378,18 @@
       <workItem from="1540988364078" duration="2879000" />
       <workItem from="1541051642943" duration="4799000" />
       <workItem from="1541061280317" duration="29399000" />
-      <workItem from="1541157255868" duration="309000" />
+      <workItem from="1541157255868" duration="3440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57409000" />
+    <option name="totallyTimeSpent" value="60540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19168901" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19168901" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -402,7 +403,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32867134" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30209792" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30209792" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -608,8 +609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
+        <state relative-caret-position="92">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
         </state>
       </provider>
     </entry>
